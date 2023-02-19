@@ -1,0 +1,248 @@
+.jadwal-reservasi {
+    width: 100%;
+    height: fit-content;
+}
+.jadwal-reservasi-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.jadwal-reservasi-heading img {
+    position: absolute;
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+.jadwal-reservasi-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 2.8rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservasi-saya-wrapper {
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jadwal-reservasi-saya {
+    width: 85%;
+    height: fit-content;
+
+    background: var(--blue2);
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+
+    box-shadow: 0.1rem 0.1rem 0.7rem rgb(0, 0, 0, 0.4);
+}
+
+.check {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.check i {
+    height: 100%;
+    color: var(--yellow2);
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+}
+
+.announce {
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--yellow2);
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-control {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-bottom: 1rem;
+}
+
+.data-control h3 {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--yellow2);
+}
+
+.data-control p {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    text-align: justify;
+}
+
+/* nav > div > span,
+nav > div > a {
+    content: "<";
+    color: var(--blue3);
+    font-size: 1.6rem;
+}
+nav > div > .active span {
+    background: red;
+} */
+.pagination {
+    font-size: 1.6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#element {
+    background: var(--blue3);
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.6rem;
+    color: white;
+}
+.active span {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: var(--blue1);
+}
+#element a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#arrow {
+    width: 3rem;
+    height: 3rem;
+    display: none;
+}
+#arrow span,
+#arrow a {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+    color: var(--blue4);
+}
+
+.pagination > li {
+    margin: 0 2rem;
+}
+
+@media (min-width: 640px) {
+    .jadwal-reservasi {
+        margin-top: 7.5vh;
+    }
+    .jadwal-reservasi-saya {
+    }
+    .data-control-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .data-control-1 {
+        width: 33%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .data-control-2 {
+        width: 33%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .data-control-3 {
+        width: 33%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .jadwal-reservasi-saya {
+        width: 75%;
+    }
+
+    .announce {
+        font-size: 1.3rem;
+    }
+
+    .data-control h3,
+    .data-control p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .jadwal-reservasi {
+        margin-top: 0;
+    }
+    .jadwal-reservasi-saya {
+        width: 55%;
+    }
+    .announce {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+    .jadwal-reservasi-saya {
+        width: 45%;
+    }
+}

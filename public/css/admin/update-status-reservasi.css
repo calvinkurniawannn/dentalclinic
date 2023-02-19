@@ -1,0 +1,231 @@
+.update-status-reservasi {
+    width: 100%;
+    height: fit-content;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.update-status-reservasi-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.update-status-reservasi-heading img {
+    position: absolute;
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+.update-status-reservasi-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 2.8rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-status-reservasi-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+.warn {
+    margin-top: 5rem;
+}
+.data-reservasi {
+    position: relative;
+
+    width: 85%;
+    height: 13rem;
+
+    background: var(--blue2);
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    box-shadow: 0.1rem 0.1rem 0.7rem rgb(0, 0, 0, 0.4);
+}
+.form-status {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-status button {
+    width: 50%;
+    height: 25%;
+
+    border-radius: 0.5rem;
+    border: none;
+
+    color: var(--blue4);
+    background: var(--yellow3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.4rem;
+
+    cursor: pointer;
+}
+
+.data-control {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.data-control label {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--yellow2);
+}
+.data-control select {
+    width: 100%;
+    height: fit-content;
+
+    background: transparent;
+    border: none;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    text-align: justify;
+}
+
+.data-control select:focus {
+    background: var(--blue3);
+}
+
+.kembali {
+    width: 25%;
+    height: 3rem;
+
+    background: var(--blue4);
+    margin: 2rem 0;
+
+    border-radius: 1rem;
+}
+
+.kembali a {
+    width: 100%;
+    height: 100%;
+
+    color: white;
+    font-size: 1.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 640px) {
+    .update-status-reservasi {
+        margin-top: 7.5vh;
+    }
+
+    .data-reservasi {
+        width: 70%;
+        flex-direction: row;
+    }
+    .data-control {
+        flex-direction: column;
+    }
+
+    .form-status {
+    }
+    .data-control h3 {
+        width: 100%;
+    }
+    .data-control p {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .data-control select {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .search-bar {
+        width: 60%;
+    }
+    .data-reservasi {
+        width: 60%;
+    }
+
+    .data-control h3,
+    .data-control p {
+        font-size: 1.6rem;
+    }
+
+    .form-status button {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .search-bar {
+        width: 50%;
+    }
+    .update-status-reservasi {
+        margin-top: 0;
+    }
+    .data-reservasi {
+        width: 50%;
+    }
+
+    .form-status button {
+        width: 30%;
+    }
+    .kembali {
+        width: 15%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .search-bar {
+        width: 40%;
+    }
+    .data-reservasi {
+        width: 40%;
+    }
+
+    .kembali {
+        width: 10%;
+    }
+}
+@media (min-width: 1536px) {
+    .data-reservasi {
+        width: 35%;
+    }
+}

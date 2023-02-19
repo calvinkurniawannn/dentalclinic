@@ -1,0 +1,186 @@
+.reservasi {
+    width: 100%;
+    height: 100vh;
+}
+.reservasi-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.reservasi-heading img {
+    position: absolute;
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+.reservasi-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservasi-form-wrapper {
+    width: 100%;
+    height: 50vh;
+
+    background: var(--blue2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reservasi-form {
+    width: 80%;
+    height: fit-content;
+
+    /* background: red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reservasi-form > div {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.reservasi-form > div > label {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+.input-select-control {
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-select-control label {
+    width: 100%;
+}
+
+.input-select-control > select {
+    width: 100%;
+    height: 60%;
+
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    font-size: 1.4rem;
+    color: var(--grey);
+    letter-spacing: 0.1rem;
+}
+
+.input-textarea-control {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-textarea-control > textarea {
+    min-width: 100%;
+    max-width: 100%;
+
+    min-height: 4rem;
+    max-height: 7rem;
+
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+
+    font-size: 1.4rem;
+    color: var(--grey);
+    letter-spacing: 0.1rem;
+}
+
+.reservasi-btn {
+    width: 40%;
+    height: 4rem;
+
+    border: none;
+    border-radius: 1rem;
+    background: var(--blue3);
+    color: var(--white);
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.reservasi-btn:hover {
+    transform: translateY(-0.3rem) translateX(-0.3rem);
+    box-shadow: 0.1rem 0.1rem 0.5rem rgb(0, 0, 0, 0.4);
+}
+@media (min-width: 640px) {
+    .reservasi {
+        margin-top: 7.5vh;
+    }
+    .reservasi-form {
+        width: 70%;
+    }
+    .reservasi-btn {
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .reservasi-form-wrapper {
+        height: 60vh;
+    }
+    .reservasi-form {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .reservasi {
+        margin-top: 0;
+    }
+    .reservasi-form {
+        width: 50%;
+    }
+    .reservasi-form > div > label {
+        font-size: 1.6rem;
+    }
+    .input-select-control > select {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .reservasi-form-wrapper {
+        height: 55vh;
+    }
+    .reservasi-form {
+        width: 40%;
+    }
+}
+@media (min-width: 1536px) {
+    .reservasi-form-wrapper {
+        height: 45vh;
+    }
+    .reservasi-form {
+        width: 25%;
+    }
+}

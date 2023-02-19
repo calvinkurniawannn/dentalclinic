@@ -1,0 +1,659 @@
+.user-home {
+    width: 100%;
+    height: fit-content;
+}
+section {
+    margin-bottom: 10rem;
+}
+
+.user-home {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.user-home.active {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+    /* add a 0.5s delay before the animation */
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease;
+    transition-delay: 0.5s;
+}
+/* ================== User Home Upper Container ======================= */
+.user-home-upper-container {
+    width: 100%;
+    height: 90vh;
+    background: var(--blue3);
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-content {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-content h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    font-size: 3.4rem;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: white;
+    letter-spacing: 0.1rem;
+}
+.top-content-img-wrapper {
+    width: 90%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-content-img {
+    width: 80%;
+}
+.top-content-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top-content p {
+    width: 90%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    color: white;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+
+.home-banner {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ================== End Of User Home Upper Container ======================= */
+
+/* ================== User Home Promo ======================= */
+.user-home-promo {
+    width: 100%;
+    height: fit-content;
+}
+.promo-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.promo-heading img {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+.promo-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-content-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-content {
+    width: 90%;
+    height: 50rem;
+
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    box-shadow: 0.1rem 0.1rem 1rem rgb(0, 0, 0, 0.2);
+}
+.promo-content img {
+    width: 95%;
+    height: 45%;
+    object-fit: cover;
+
+    border-radius: 0.5rem;
+}
+
+.promo-content-text {
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.promo-title {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--blue4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-desc {
+    width: 100%;
+    font-size: 1.6rem;
+    color: black;
+
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-selengkapnya {
+    width: 50%;
+    height: 3rem;
+    color: white;
+    background-color: var(--blue3);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn-selengkapnya:hover {
+    transform: scale(1.05);
+}
+/* ================== End Of SUser Home Promo ======================= */
+
+/* ================== Mengapa Dental Section ======================= */
+.mengapa-dental {
+    width: 100%;
+    height: fit-content;
+}
+.mengapa-dental-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.mengapa-dental-heading img {
+    position: absolute;
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+
+.mengapa-dental-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mengapa-dental-content-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-content {
+    width: 90%;
+    height: 30rem;
+
+    padding: 2rem;
+    margin: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reason-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background: var(--blue3);
+
+    border: none;
+    border-radius: 50%;
+}
+
+.reason-content-text {
+    width: 90%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reason-title {
+    width: 100%;
+    font-size: 2rem;
+    color: var(--blue3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason-desc {
+    width: 100%;
+    font-size: 1.6rem;
+    color: black;
+
+    text-align: justify;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ================== End Of Mengapa Dental Section ======================= */
+
+/* ================== Layanan Kami Section ======================= */
+.layanan-kami {
+    width: 100%;
+    height: fit-content;
+}
+.layanan-kami-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.layanan-kami-heading img {
+    position: absolute;
+
+    width: 100%;
+    height: 90%;
+
+    object-fit: contain;
+}
+
+.layanan-kami-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.layanan-kami-content-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.layanan-content {
+    width: 80%;
+    height: 25rem;
+
+    background: var(--blue3);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    transition: all 0.5s;
+}
+
+.layanan-content:hover {
+    transform: translateY(-0.5rem) translateX(-0.5rem);
+    box-shadow: 0.1rem 0.1rem 1rem rgb(0, 0, 0, 0.7);
+}
+.layanan-content-image {
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layanan-content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.layanan-content-text {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.layanan-title {
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ================== End Of Layanan Kami Section ======================= */
+
+/* ==================  Reservasi Section ======================= */
+.reservasi {
+    width: 100%;
+    height: fit-content;
+}
+.reservasi-heading {
+    width: 100%;
+    height: 20vh;
+
+    position: relative;
+}
+.reservasi-heading img {
+    position: absolute;
+
+    width: 80%;
+    height: 80%;
+
+    object-fit: contain;
+}
+
+.reservasi-heading h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--yellow4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reservasi-content-wrapper {
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reservasi-content-wrapper h3 {
+    width: 80%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--yellow4);
+}
+
+.reservasi-btn {
+    width: 60%;
+    height: 4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    background: var(--blue3);
+    color: white;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ================== End Of Reservasi Section ======================= */
+
+/* RESPONSIVE */
+
+@media (min-width: 640px) {
+    .user-home-upper-container {
+        margin-top: 7.5vh;
+    }
+    .top-content-img {
+        width: 65%;
+    }
+
+    .top-content {
+        height: 50%;
+    }
+    .top-content h3 {
+    }
+    .top-content-img-wrapper {
+        width: 80%;
+        height: 55%;
+    }
+    .top-content-img {
+    }
+    .home-banner {
+        width: 100%;
+        height: 50%;
+    }
+    .home-banner img {
+        opacity: 0.95;
+    }
+
+    .promo-content {
+        width: 65%;
+    }
+
+    .promo-heading img {
+        height: 90%;
+    }
+
+    .reason-content {
+        width: 65%;
+    }
+
+    .mengapa-dental-heading h3 {
+        flex-direction: row;
+    }
+
+    .layanan-content {
+        width: 50%;
+    }
+
+    .reservasi-content-wrapper h3 {
+        width: 70%;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .top-content {
+    }
+
+    .top-content-img {
+        width: 55%;
+    }
+    .top-content-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .promo-content {
+        width: 50%;
+    }
+    .reason-content {
+        width: 50%;
+    }
+    .layanan-content {
+        width: 40%;
+    }
+
+    .reservasi-btn {
+        width: 30%;
+        height: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .user-home-upper-container {
+        height: 55vh;
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .top-content {
+        width: 40%;
+        height: 100%;
+    }
+    .top-content h3 {
+        font-size: 4rem;
+    }
+    .top-content-img-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 40%;
+    }
+    .top-content-img {
+        width: 80%;
+    }
+    .top-content p {
+        width: 80%;
+        font-size: 1.8rem;
+    }
+    .home-banner {
+        width: 60%;
+        height: 100%;
+    }
+
+    .home-banner img {
+        border-radius: 1.5rem 0 0 1.5rem;
+        box-shadow: -1rem 0rem.5rem rgb(0, 0, 0, 0.3);
+    }
+
+    .promo-content {
+        width: 35%;
+    }
+
+    .reason-content {
+        width: 35%;
+    }
+    .layanan-content {
+        width: 25%;
+    }
+
+    .reservasi-btn {
+    }
+}
+
+@media (min-width: 1280px) {
+    .top-content-img {
+        width: 70%;
+    }
+
+    .promo-content-wrapper {
+        padding: 0 4rem;
+    }
+
+    .promo-content {
+        width: 30%;
+    }
+    .mengapa-dental-content-wrapper {
+        padding: 0 4rem;
+    }
+    .reason-content {
+        width: 30%;
+    }
+
+    .layanan-content {
+        width: 20%;
+    }
+
+    .reservasi-btn {
+        width: 20%;
+    }
+}
+@media (min-width: 1536px) {
+    .layanan-content {
+        width: 15%;
+    }
+    .reservasi-btn {
+        width: 15%;
+    }
+}
